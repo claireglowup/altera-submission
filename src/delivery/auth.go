@@ -79,4 +79,5 @@ func (d *delivery) Logout(c echo.Context) error {
 	c.SetCookie(cookie)
 
 	return helper.WriteResponse(c, http.StatusOK, "you are logout", nil)
+
 }
