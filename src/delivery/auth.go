@@ -33,6 +33,7 @@ func (d *delivery) RegisterHandler(c echo.Context) error {
 
 }
 
+// change the cookies soon
 func (d *delivery) Login(c echo.Context) error {
 
 	var user request.UserLogin
